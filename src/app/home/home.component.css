@@ -1,0 +1,15 @@
+section{
+    width: 80vw;
+    height: 70vh;
+}
+
+.Overflow{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    section{
+        height: 130vh;
+    }
+}
